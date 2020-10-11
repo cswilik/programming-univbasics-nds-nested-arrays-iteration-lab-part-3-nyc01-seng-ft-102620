@@ -9,7 +9,7 @@ def join_nested_strings(src)
       if element_index.class == String 
         new_string.push(src[row_index][element_index])
       else 
-        False 
+        FALSE
       end 
       element_index += 1 
     end 
